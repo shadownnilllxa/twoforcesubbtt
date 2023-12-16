@@ -1,6 +1,6 @@
 {
   "name": "File Sharing Man",
-  "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
+  "description": "BOT Multi Force Subs File Sharing Bot",
   "stack": "heroku-22",
   "keywords": [
     "telegram",
@@ -10,47 +10,47 @@
   "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
+      "description": "Bot token from t.me/BotFather",
       "value": ""
     },
     "OWNER": {
-      "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
+      "description": "Owner Id",
       "value": ""
     },
     "ADMINS": {
-      "description": "Masukan User ID untuk mendapatkan hak Admin di BOT [ Gunakan Spasi Untuk Pemisah User ID ]",
+      "description": "Admin Id",
       "value": "0"
     },
     "APP_ID": {
-      "description": "Dapatkan APP ID di web my.telegram.org",
+      "description": "APP ID from my.telegram.org",
       "value": "6"
     },
     "API_HASH": {
-      "description": "Dapatkan API HASH di web my.telegram.org",
+      "description": "API HASH from web my.telegram.org",
       "value": "eb06d4abfb49dc3eeb1aeb98ae0f581e"
     },
     "CHANNEL_ID": {
-      "description": "Masukan ID Channel Untuk [Channel Database]",
+      "description": "DB channel id",
       "value": "-100"
     },
     "PROTECT_CONTENT": {
-      "description": "Untuk Mencegah pengguna bot untuk mendownload/memforward/mengscreenshot konten yang dikirim di bot [ Bila ingin diaktifkan ubah ke True ]",
+      "description": "Protect content FALSE if you dont want",
       "value": "False"
     },
     "FORCE_SUB_CHANNEL": {
-      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
+      "description": "Force Sub Channel",
       "value": "0"
     },
     "FORCE_SUB_GROUP": {
-      "description": "Masukan ID dari Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
+      "description": "Force Sub Group",
       "value": "0"
     },
     "START_MESSAGE": {
-      "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
+      "description": "Start Message",
       "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
     },
     "FORCE_SUB_MESSAGE": {
-      "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
+      "description": "Force Sub Message",
       "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
     }
   },
