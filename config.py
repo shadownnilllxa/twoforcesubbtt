@@ -58,10 +58,8 @@ FORCE_MSG = os.environ.get(
     "<b>🚀𝗦𝗼𝗿𝗿𝘆 𝗱𝘂𝗱𝗲 𝗷𝗼𝗶𝗻 𝗺𝘆 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 𝗳𝗶𝗿𝘀𝘁 𝘁𝗼 𝗮𝗰𝗰𝗲𝘀𝘀 𝗳𝗶𝗹𝗲𝘀.. \n𝗔𝗳𝘁𝗲𝗿 𝗷𝗼𝗶𝗻 𝘁𝗿𝘆 𝗮𝗴𝗮𝗶𝗻..!</b>",
 )
 
-# Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
-# Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "False"))
 
 # Admin
