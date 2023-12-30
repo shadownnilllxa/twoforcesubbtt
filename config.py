@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
 except ValueError:
-    raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
+    raise Exception("The Admin list does not contain valid Telegram User ID.")
 
 # ForceSub Message
 FORCE_MSG = os.environ.get(
