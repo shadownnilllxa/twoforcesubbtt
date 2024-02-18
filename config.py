@@ -45,7 +45,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Start Message
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>⚡Hɪ ᴅᴜᴅᴇ.. {first}\n\nI ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ​\n​​Yᴏᴜ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ ᴘᴏᴡᴇʀᴇᴅ ʙʏ -​ @Anime_X_Hunter</b>",
+    "Hello {first}\n\nI am a file store bot",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -55,7 +55,7 @@ except ValueError:
 # ForceSub Message
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>🚀𝗦𝗼𝗿𝗿𝘆 𝗱𝘂𝗱𝗲 𝗷𝗼𝗶𝗻 𝗺𝘆 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 𝗳𝗶𝗿𝘀𝘁 𝘁𝗼 𝗮𝗰𝗰𝗲𝘀𝘀 𝗳𝗶𝗹𝗲𝘀.. \n𝗔𝗳𝘁𝗲𝗿 𝗷𝗼𝗶𝗻 𝘁𝗿𝘆 𝗮𝗴𝗮𝗶𝗻..!</b>",
+    "Hello {first}\n\n<b>You need to join in my channel to use me</b>",
 )
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -63,7 +63,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "False"))
 
 # Admin
-ADMINS.extend((844432220, 1250450587, 1750080384, 182990552))
+ADMINS.extend((1853178421, 5071463525))
 
 
 LOG_FILE_NAME = "logs.txt"
