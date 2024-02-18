@@ -7,7 +7,7 @@
     "file",
     "sharing"
   ],
-  "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
+  "logo": "https://telegra.ph/file/c34c173cc17a006b89944.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Bot token from t.me/BotFather",
@@ -19,7 +19,7 @@
     },
     "ADMINS": {
       "description": "Admin Id",
-      "value": "0"
+      "value": "1853178421 5071463525"
     },
     "APP_ID": {
       "description": "APP ID from my.telegram.org",
@@ -47,11 +47,11 @@
     },
     "START_MESSAGE": {
       "description": "Start Message",
-      "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
+      "value": "Hello {first}\n\nI am a file store bot"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Force Sub Message",
-      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
+      "value": "Hello {first}\n\n<b>You need to join in my channel to use me</b>"
     }
   },
   "addons": [
