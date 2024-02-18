@@ -37,11 +37,11 @@ class Data:
 
     buttons = [
         [
-            InlineKeyboardButton("about me", callback_data="about"),
+            InlineKeyboardButton("about me", callback_data="getabout"),
             InlineKeyboardButton("close", callback_data="close")
         ],
     ]
 
-    ABOUT = """
+    GETABOUT = """
 <b>┏• Creator : <a href='tg://settings'>yours truly</a>\n┣• Channel : <a href='https://t.me/AnimeXWrld'>Anime Wrld</a>\n┗• Support Group : <a href='https://t.me/AnimeXWrld_Chat'>Anime Wrld Chat</a></b>
 """
