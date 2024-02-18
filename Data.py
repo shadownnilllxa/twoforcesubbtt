@@ -5,7 +5,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 class Data:
-    HELP = """
+    GETHELP = """
 <b> ❏ Commands for BOT Users
  ├ /start - Starts the Bot
  ├ /about - About this Bot
@@ -23,7 +23,6 @@ class Data:
  ├ /speedtest - To test the bot server speed
  └ /broadcast - To send a broadcast message to the bot user
 
-👨‍💻 Develoved by </b><a href='https://t.me/Its_Oreki_Hotarou'>Hōᴛᴀʀō Oʀᴇᴋɪ</a>
 """
 
     close = [
@@ -45,12 +44,5 @@ class Data:
     ]
 
     ABOUT = """
-<b>Hi there this is a file store bot which is convert any file to link...
-then you can access this file through a specific link...!
-
- • Creator: <a href='https://t.me/Its_Oreki_Hotarou'>Hōᴛᴀʀō Oʀᴇᴋɪ</a>
- • My Channel: <a href='https://t.me/Anime_X_Hunters'>Aɴɪᴍᴇ x Hᴜɴᴛᴇʀꜱ</a>
- • Source Code: <a href='https://github.com/Sahil0976'>Nᴏᴢᴇʟ Sɪʟᴠᴀ</a>
-
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+<b>┏• Creator : <a href='tg://settings'>yours truly</a>\n┣• Channel : <a href='https://t.me/AnimeXWrld'>Anime Wrld</a>\n┗• Support Group : <a href='https://t.me/AnimeXWrld_Chat'>Anime Wrld Chat</a></b>
 """
