@@ -173,7 +173,7 @@ async def get_users(client: Bot, message: Message):
         chat_id=message.chat.id, text="<code>Processing ...</code>"
     )
     users = await full_userbase()
-    await msg.edit(f"{len(users)} <b>Users use this bot</b>")
+    await msg.edit(f"{len(users)} users are using this bot")
 
 
 @Bot.on_message(filters.command("broadcast") & filters.user(ADMINS))
@@ -210,11 +210,11 @@ async def send_text(client: Bot, message: Message):
                     unsuccessful += 1
                 total += 1
         status = f"""<b><u>Successful Broadcast</u>
-Jumlah Pengguna: <code>{total}</code>
-Berhasil: <code>{successful}</code>
-Gagal: <code>{unsuccessful}</code>
-Pengguna diblokir: <code>{blocked}</code>
-Akun Terhapus: <code>{deleted}</code></b>"""
+Number of Users: <code>{total}</code>
+Success: <code>{successful}</code>
+Failed: <code>{unsuccessful}</code>
+Blocked Users: <code>{blocked}</code>
+Deleted Accounts: <code>{deleted}</code></b>"""
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
