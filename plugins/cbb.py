@@ -18,11 +18,11 @@ async def _about(client: Bot, msg: Message):
     )
 
 
-@Bot.on_message(filters.private & filters.incoming & filters.command("help"))
+@Bot.on_message(filters.private & filters.incoming & filters.command("gethelp"))
 async def _help(client: Bot, msg: Message):
     await client.send_message(
         msg.chat.id,
-        "<b>How to Use this Bot</b>\n" + Data.HELP,
+        "<b>How to Use this Bot</b>\n" + Data.GETHELP,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(Data.buttons),
     )
@@ -40,10 +40,10 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             )
         except MessageNotModified:
             pass
-    elif data == "help":
+    elif data == "gethelp":
         try:
             await query.message.edit_text(
-                text="<b>How to Use this Bot</b>\n" + Data.HELP,
+                text="<b>How to Use this Bot</b>\n" + Data.GETHELP,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(Data.buttons),
             )
