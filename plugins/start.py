@@ -125,6 +125,7 @@ async def start_command(client: Bot, message: Message):
                     protect_content=PROTECT_CONTENT,
                     reply_markup=reply_markup,
                 )
+                await messages.delete(60)
             except BaseException:
                 pass
     else:
