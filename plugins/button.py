@@ -18,7 +18,7 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Channel 2", url=client.creates_join_request),
+                InlineKeyboardButton(text="Channel 2", url=client.importChatInvite),
             ],
             [
                 InlineKeyboardButton(text="about me", callback_data="getabout"),
@@ -51,7 +51,7 @@ def fsub_button(client, message):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Join Channel 2", url=client.creates_join_request),
+                InlineKeyboardButton(text="Join Channel 2", url=client.importChatInvite),
             ],
         ]
         try:
@@ -88,7 +88,7 @@ def fsub_button(client, message):
         buttons = [
             [
                 InlineKeyboardButton(text="Join Channel 1", url=client.invitelink),
-                InlineKeyboardButton(text="Join Channel 2", url=client.creates_join_request),
+                InlineKeyboardButton(text="Join Channel 2", url=client.importChatInvite),
             ],
         ]
         try:
